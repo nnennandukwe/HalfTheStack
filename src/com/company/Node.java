@@ -1,7 +1,7 @@
 package com.company;
 
 public class Node {
-    private Integer data;
+    private String data;
     private Node next;
 
     public void setNext(Node next){
@@ -12,11 +12,11 @@ public class Node {
         return this.next;
     }
 
-    public void setData(Integer data){
+    public void setData(String data){
         this.data = data;
     }
 
-    public Integer getData(){
+    public String getData(){
         return this.data;
     }
 }

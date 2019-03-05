@@ -1,15 +1,15 @@
 package com.company;
 
 public interface MyStack {
-    public boolean push(Integer data);
+    public boolean push(String data);
 
-    public Integer pop();
+    public String pop();
 
     public boolean isFull();
 
     public boolean isEmpty();
 
-    public Integer top();
+    public String top();
 
     public int size();
 
